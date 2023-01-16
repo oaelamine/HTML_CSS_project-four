@@ -1,0 +1,72 @@
+/* start box */
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+/* end box */
+/* start margin and padding */
+.fa-fw {
+    width: 50px;
+}
+.p-20 {
+    padding: 20px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-10 {
+    padding: 10px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0{
+    margin-top: 0;
+}
+/* end margin and padding */
+/* start color */
+.bg-white {
+    background-color: white;
+}
+.c-black {
+    color: black;
+}
+/* end color */
+/* start position */
+.p-relative {
+    position: relative;
+}
+/* end position */
+/* text deco start */
+.txt-c {
+    text-align: center;
+}
+.fs-14 {
+    font-size: 14px;
+}
+/* text deco end  */
+/* start border */
+.red-6 {
+    border-radius: 6px;
+}
+/* end border */
+/* dimention start */
+.w-full {
+    width: 100%;
+}
+/* dimention end */
+@media (max-width:767px) {
+    .hide-mobile {
+        display: none;
+    }
+
+}
+/* start component */
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* end component */
